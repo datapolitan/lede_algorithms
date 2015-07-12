@@ -26,6 +26,9 @@ This course presents an overview of algorithms as they relate to journalistic tr
 ###Course Readings
 The required readings for this course consist of book chapters, newspaper articles, and short blog posts. The intention is to help give you a foundation in the critical skills ahead of class lectures. All required readings are available online or will be made available to you electronically. Recommended readings are suggestions if you wish to study further the topics covered in class. Suggested readings will also be provided as appropriate for those interested in a more in-depth discussion of the material covered in class.
 
+###Assignments
+This course consists of programming and critical response assignments intended to reinforce learning and provide you with pratical applications of the material covered in class. Completion of these assignments is critical to achieving the outcomes of this course. Assignments are intended to be completed during lab time or for homework. Generally, assignments will be due the following week. For example, exercises assigned on Tuesday will be due before class on the following Tuesday. The format and means of submitting assignments will be addressed in class. 
+
 ###Class Format
 Class runs from 10am to 1pm Tuesday and Thursday. Lab time will be from 2pm to 5pm Tuesday and Thursday. The class will be taught in roughly 50 minute blocks, with approximately 10 minute breaks between each 50 minute block. Class will be a mix of lecture and practical exercise work, emphasizing the application of skills covered in the lecture portion of the class. Lab time is intended for the completion of exercises, but may also include guided learning sessions as necessary to ensure comprehension of the course material. 
 
@@ -64,7 +67,12 @@ Class runs from 10am to 1pm Tuesday and Thursday. Lab time will be from 2pm to 5
 ###Course Outline
 (Subject to change)
 
-Week 1: Introduction to Algorithms
+####Week 1: Introduction to Algorithms
+#####Class 1 Readings
++ Miller, Claire Cain, [“When Algorithms Discriminate”](http://nyti.ms/1KS5rdu) New York Times, 9 July 2015
++ O’Neil, Cathy, [“Algorithms And Accountability Of Those Who Deploy Them”](http://mathbabe.org/2015/05/26/algorithms-and-accountability-of-those-who-deploy-them/)
++ Elkus, Adam, [“You Can’t Handle the (Algorithmic) Truth”](http://www.slate.com/articles/technology/future_tense/2015/05/algorithms_aren_t_responsible_for_the_cruelties_of_bureaucracy.single.html)
++ Diakopoulos, Nicholas, ["Algorithmic Accontability Reporting: On the Investigation of Black Boxes"](http://towcenter.org/wp-content/uploads/2014/02/78524_Tow-Center-Report-WEB-1.pdf)
 
 Week 2: The Art of Algorithm Inputs
 
