@@ -3,12 +3,8 @@
 
 
 ###Instructors:
-[Richard Dunks](mailto:richard@datapolitan.com) 
-([Columbia.edu e-mail](mailto:rad2184@columbia.edu))
-
-<!--email addresses-->
-
-[Chase Davis]()
+Richard Dunks
+Chase Davis
 
 ####Room Number: Furnald Hall 601B
 
@@ -38,20 +34,36 @@ Class runs from 10am to 1pm Tuesday and Thursday. Lab time will be from 2pm to 5
 
 ###Course Policies
 <b>Attendance and Tardiness:</b> We expect you to attend every class, arriving on time and staying for the entire duration of class. Absences will only be excused for circumstances coordinated in advance and you are responsible for making up any missed work.
-<b>Participation:</b> We expect you to be fully engaged while you’re in class. This means asking questions when necessary, engaging in class discussions, participating in class exercises, and completing all assigned work. <b>Learning will occur in this class only when you actively use the tools, techniques, and skills described in the lectures.</b> We will provide you ample time and resources to accomplish the goals of this course and expect you to take full advantage of what’s offered.
-<b>Late Assignments:</b> All assignments are to be submitted before the start of class. Assignments posted by the end of the day following class will be marked down 10% and assignments posted at the end of the day following will be marked down 20%. No assignments will be accepted for a grade after three days following class.
-<b>Office hours:</b> We won’t be holding regular office hours, but are available via email ([richard@datapolitan.com](richard@datapolitan.com) or ) to answer whatever questions you may have about the material. Please feel free to also reach out to the Teaching Assistants as necessary for support and guidance with the exercises, particularly during lab time.
+<b>Participation:</b> We expect you to be fully engaged while you’re in class. This means asking questions when necessary, engaging in class discussions, participating in class exercises, and completing all assigned work. <b>Learning will occur in this class only when you actively use the tools, techniques, and skills described in the lectures.</b> We will provide you ample time and resources to accomplish the goals of this course and expect you to take full advantage of what’s offered.
+<b>Late Assignments:</b> All assignments are to be submitted before the start of class. Assignments posted by the end of the day following class will be marked down 10% and assignments posted at the end of the day following will be marked down 20%. No assignments will be accepted for a grade after three days following class.
+<b>Office hours:</b> We won’t be holding regular office hours, but are available via email to answer whatever questions you may have about the material. Please feel free to also reach out to the Teaching Assistants as necessary for support and guidance with the exercises, particularly during lab time.
 
 ----
-###Resources####Technical+ Stack Overflow: http://stackoverflow.com/ - Q&A community of technology pros####(Some) Open Data Sources+ New York City Open Data Portal - https://nycopendata.socrata.com/+ New York State Open Data Portal - https://data.ny.gov/+ Hilary Mason’s Research Quality Data Sets - https://bitly.com/bundles/hmason/1
+###Resources
+####Technical
 
-####Visualizations+ Flowing Data - http://flowingdata.com/+ Tableau Visualization Gallery – http://www.tableausoftware.com/public/gallery o Visualizing.org - http://www.visualizing.org/+ Data is Beautiful - http://www.reddit.com/r/dataisbeautiful/
++ [Stack Overflow](http://stackoverflow.com) - Q&A community of technology pros
+
+####(Some) Open Data Sources
+
++ [New York City Open Data Portal](https://nycopendata.socrata.com/)
++ [New York State Open Data Portal](https://data.ny.gov/)
++ [Hilary Mason’s Research Quality Data Sets](https://bitly.com/bundles/hmason/1)
+
+####Visualizations
+
++ [Flowing Data](http://flowingdata.com/)
++ [Tableau Visualization Gallery](http://www.tableausoftware.com/public/gallery)
++ [Visualizing.org](http://www.visualizing.org/)
++ [Data is Beautiful](http://www.reddit.com/r/dataisbeautiful/)
 
 ####Data Journalism and Critiques
 
 + [FiveThirtyEight](http://fivethirtyeight.com/)
 + [Upshot](http://www.nytimes.com/upshot/)
-+ [IQuantNY](http://iquantny.tumblr.com/)----
++ [IQuantNY](http://iquantny.tumblr.com/)
+
+----
 ###Course Outline
 
 Week 1: Introduction to Algorithms
