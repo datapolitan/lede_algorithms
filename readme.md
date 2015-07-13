@@ -90,4 +90,5 @@ Week 7: Advanced Topics (we'll be polling the class for topics)
 ###Contact
 
 Richard Dunks: richard@datapolitan.com
+
 Chase Davis: chase.davis@nytimes.com
