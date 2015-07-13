@@ -86,3 +86,8 @@ Week 5: Opening the Blackbox, Part III - Unsupervised Learning
 Week 6: Natural Language Processing, Reverse Engineering, and Ethics Revisited
 
 Week 7: Advanced Topics (we'll be polling the class for topics)
+
+###Contact
+
+Richard Dunks: richard@datapolitan.com
+Chase Davis: chase.davis@nytimes.com
