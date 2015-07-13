@@ -2,7 +2,12 @@
 ##LEDE Program, Columbia University, Graduate School of Journalism
 
 
-###Instructors: Richard Dunks and Chase Davis
+###Instructors:
+
+Richard Dunks: richard [at] datapolitan [dot] com
+
+Chase Davis: chase.davis [at] nytimes [dot] com
+
 
 ####Room Number: Furnald Hall 601B
 
@@ -107,8 +112,3 @@ Steiner, Christopher. <i>Automate This: How Algorithms Came to Rule Our World</i
 
 ####Week 7: Advanced Topics (we'll be polling the class for topics)
 
-###Contact
-
-Richard Dunks: richard [at] datapolitan [dot] com
-
-Chase Davis: chase.davis [at] nytimes [dot] com
