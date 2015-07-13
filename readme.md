@@ -19,6 +19,7 @@ This course presents an overview of algorithms as they relate to journalistic tr
 + You will understand the primary types of data science algorithms, including techniques of supervised and unsupervised machine learning
 + You will be practiced in implementing basic algorithms in Python
 + You will be able to meaningfully explain and critique the use and operation of algorithms as tools of public policy and business
++ You will understand how algorithms are applied in the newsroom
 
 ###Course Requirements
 <b>All students will be expected to have a laptop during both lectures and lab time.</b> Time will be set aside to help install, configure, and run the programs necessary for all assignments, projects, and exercises. Where possible, all programs will be free and open-source. All assigned work using services hosted online can be run using free accounts.
@@ -63,7 +64,16 @@ Class runs from 10am to 1pm Tuesday and Thursday. Lab time will be from 2pm to 5
 + [Upshot](http://www.nytimes.com/upshot/)
 + [IQuantNY](http://iquantny.tumblr.com/)
 
-####Recommended ReadingConway, Drew and John Myles White. <i>Machine Learning for Hackers</i>. O'Reilly Media, Inc., 2012.Knuth, Donald E. <i>The Art of Computer Programming</i>. Addison-Wesley Professional, 2011.MacCormick, John. <i>Nine Algorithms That Changed the Future: The Ingenious Ideas That Drive Today's Computers</i>. Princeton University Press, 2011.McCallum, Q Ethan. <i>Bad Data Handbook</i>. O'Reilly Media, Inc., 2012.McKinney, Wes. <i>Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython.</i> O'Reilly Media, Inc., 2012.
+####Recommended Reading
+Conway, Drew and John Myles White. <i>Machine Learning for Hackers</i>. O'Reilly Media, Inc., 2012.
+
+Knuth, Donald E. <i>The Art of Computer Programming</i>. Addison-Wesley Professional, 2011.
+
+MacCormick, John. <i>Nine Algorithms That Changed the Future: The Ingenious Ideas That Drive Today's Computers</i>. Princeton University Press, 2011.
+
+McCallum, Q Ethan. <i>Bad Data Handbook</i>. O'Reilly Media, Inc., 2012.
+
+McKinney, Wes. <i>Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython.</i> O'Reilly Media, Inc., 2012.
 
 O'Neil, Cathy and Rachel Schutt. <i>Doing Data Science: Straight Talk from the Front Line</i>. O'Reilly Media, Inc., 2013.
 
@@ -94,4 +104,11 @@ Steiner, Christopher. <i>Automate This: How Algorithms Came to Rule Our World</i
 
 ####Week 6: Natural Language Processing, Reverse Engineering, and Ethics Revisited
 
+
 ####Week 7: Advanced Topics (we'll be polling the class for topics)
+
+###Contact
+
+Richard Dunks: richard [at] datapolitan [dot] com
+
+Chase Davis: chase.davis [at] nytimes [dot] com
