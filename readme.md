@@ -9,7 +9,7 @@ Richard Dunks: richard [at] datapolitan [dot] com
 Chase Davis: chase.davis [at] nytimes [dot] com
 
 
-####Room Number: Furnald Hall 601B
+####Room Number: Pulitzer Hall 601B
 
 ####Course Dates: 14 July - 27 August 2015
 
