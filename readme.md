@@ -70,6 +70,7 @@ Class runs from 10am to 1pm Tuesday and Thursday. Lab time will be from 2pm to 5
 + [FiveThirtyEight](http://fivethirtyeight.com/)
 + [Upshot](http://www.nytimes.com/upshot/)
 + [IQuantNY](http://iquantny.tumblr.com/)
++ [SimplyStatistics](http://simplystatistics.org/)
 
 ####Suggested Reading
 Conway, Drew and John Myles White. <i>Machine Learning for Hackers</i>. O'Reilly Media, Inc., 2012.
@@ -101,7 +102,7 @@ Steiner, Christopher. <i>Automate This: How Algorithms Came to Rule Our World</i
 + Elkus, Adam, [“You Can’t Handle the (Algorithmic) Truth”](http://www.slate.com/articles/technology/future_tense/2015/05/algorithms_aren_t_responsible_for_the_cruelties_of_bureaucracy.single.html)
 + Diakopoulos, Nicholas, ["Algorithmic Accontability Reporting: On the Investigation of Black Boxes"](http://towcenter.org/wp-content/uploads/2014/02/78524_Tow-Center-Report-WEB-1.pdf)
 
-####Week 2: The Art of Algorithm Inputs
+####Week 2: Statistics Review/Introduction to Linear Regression
 
 ####Week 3: Opening the Blackbox, Part I - Supervised Learning I
 
