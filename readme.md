@@ -95,23 +95,31 @@ Steiner, Christopher. <i>Automate This: How Algorithms Came to Rule Our World</i
 ###Course Outline
 (Subject to change)
 
-####Week 1: Introduction to Algorithms
+####Week 1: Introduction to Algorithms/Statistics review
 #####Class 1 Readings
 + Miller, Claire Cain, [“When Algorithms Discriminate”](http://nyti.ms/1KS5rdu) New York Times, 9 July 2015
 + O’Neil, Cathy, [“Algorithms And Accountability Of Those Who Deploy Them”](http://mathbabe.org/2015/05/26/algorithms-and-accountability-of-those-who-deploy-them/)
 + Elkus, Adam, [“You Can’t Handle the (Algorithmic) Truth”](http://www.slate.com/articles/technology/future_tense/2015/05/algorithms_aren_t_responsible_for_the_cruelties_of_bureaucracy.single.html)
 + Diakopoulos, Nicholas, ["Algorithmic Accontability Reporting: On the Investigation of Black Boxes"](http://towcenter.org/wp-content/uploads/2014/02/78524_Tow-Center-Report-WEB-1.pdf)
 
-####Week 2: Statistics Review/Introduction to Linear Regression
+#####Class 2 Readings (optional)
++ McKinney, "Getting Started With Pandas" <i>Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython.</i>
++ McKinney, "Plotting and Visualization" <i>Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython.</i> 
 
-####Week 3: Opening the Blackbox, Part I - Supervised Learning I
+####Week 2: Statistics in Reporting/Opening the Blackbox: Supervised Learning - Linear Regression 
+#####Class 1 Readings
++ (TBD)
 
-####Week 4: Opening the Blackbox, Part II - Supervised Learning II
+#####Class 2 Readings
++ O'Neill, "Statistical Inference, Exploratory Data Analysis, and the Data Science Process" <i>Doing Data Science: Straight Talk from the Front Line</i> pp. 17-37
 
-####Week 5: Opening the Blackbox, Part III - Unsupervised Learning
+####Week 3: Opening the Blackbox: Supervised Learning - Decision Trees/Naive Bayes
+
+####Week 4: Opening the Blackbox: Unsupervised Learning - Clustering, k-NN
+
+####Week 5: Opening the Blackbox: Unsupervised Learning
 
 ####Week 6: Natural Language Processing, Reverse Engineering, and Ethics Revisited
-
 
 ####Week 7: Advanced Topics (we'll be polling the class for topics)
 
