@@ -1,20 +1,20 @@
 # Algorithms: Week 2, Class 1 (Tuesday, July 21)
 
-Today we'll spend the first hour reinforcing last week's review by exploring a new dataset: the same data used by FiveThirtyEight to build their [fastest-flight tracker](http://projects.fivethirtyeight.com/flights/) launched last month.
+Today we'll spend the first hour reviewing last week's material by exploring a new dataset: transportation data used by FiveThirtyEight to build their [fastest-flight tracker](http://projects.fivethirtyeight.com/flights/), which launched last month.
 
-After that, we'll spend some time talking about why it's important to learn, and explain, what's going on under the hood of modern algorithms -- both as an exercise in transparency and skepticism and as a setup for Thursday's class, where we'll begin talking about regression.
+Then we'll talk about why it's important to learn, and explain, what's going on under the hood of modern algorithms -- both as an exercise in transparency and skepticism and as a setup for Thursday's class, where we'll begin discussing regression.
 
 In lab, you'll continue our class work by analyzing some data on your own and developing your results into story ideas. Then we'll ask you to critique a project released earlier this summer by NPR.
 
 ## Hour 1: Exploratory data analysis review
 
-We'll be working with airline on-time performance reports from the U.S. Department of Transportation, which you can download [here](http://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236&DB_Short_Name=On-Time). The rest of what you'll need is in the accompanying iPython notebook.
+We'll be working with airline on-time performance reports from the U.S. Department of Transportation, which you can download [here](http://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236&DB_Short_Name=On-Time). The rest of what you'll need is in the accompanying [iPython notebook](https://github.com/datapolitan/lede_algorithms/blob/master/class2_1/EDA_Review.ipynb).
 
-## Hour 2: Transparency and the "Nerd Box"
+## Hour 2: Transparency and the "nerd box"
 
-First, we'll talk a little about Simon Rogers' piece in Mother Jones: [Hey Wonk Reporters, Liberate Your Data!](http://www.motherjones.com/media/2014/04/vox-538-upshot-open-data-missing) (and possibly this: [Debugging the Backlash to Data Journalism](http://towcenter.org/debugging-the-backlash-to-data-journalism/)).
+First, we'll read Simon Rogers' piece in Mother Jones: [Hey Wonk Reporters, Liberate Your Data!](http://www.motherjones.com/media/2014/04/vox-538-upshot-open-data-missing) (and possibly this: [Debugging the Backlash to Data Journalism](http://towcenter.org/debugging-the-backlash-to-data-journalism/)).
 
-And then we'll talk about the evolution of transparency in data journalism and why it's important: from the journalistic tradition of the "nerd box," through making data available via news apps, and finally more modern examples of transparency.
+Then we'll discuss the evolution of transparency in data journalism and why it's important: from the journalistic tradition of the "nerd box," through making data available via news apps, and finally to more modern examples of transparency.
 
   - [The Boston Globe's Speed Trap: Who Gets a Ticket, Who Gets a Break?](http://www.boston.com/globe/metro/packages/tickets/study.pdf)
   - [St. Petersburg (now Tampa Bay) Times: Vanishing Wetlands](http://www.sptimes.com/2006/webspecials06/wetlands/)
@@ -24,7 +24,7 @@ And then we'll talk about the evolution of transparency in data journalism and w
 
 ## Hour 3: From transparent data to transparent algorithms
 
-Even if you never write another algorithm in your entire life, this class should at least teach you enough to ask good questions about their capabilities and roles in society. We'll look at stories from some reporters who can articulate an understanding of how algorithms work, as well as some who clearly can't.
+Even if you never write another algorithm before you die, this class should at least teach you enough to ask good questions about their capabilities and roles in society. We'll look at stories from some reporters who can articulate a clear, accurate understanding of how algorithms work, as well as some who ... well ... can't.
 
 Here are a few examples from one of those categories:
 
@@ -50,4 +50,4 @@ Second, write a short critique of NPR and Planet Money's recent coverage of the 
 
 ## Questions
 
-I'm at chase.davis@nytimes.com
+I'm at chase.davis@nytimes.com, and I'll be on Slack after class.
