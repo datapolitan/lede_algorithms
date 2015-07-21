@@ -36,14 +36,18 @@ Here are a few examples from one of those categories:
 
 And a few from the other:
 
-    - [At UPS, the Algorithm Is the Driver](http://www.wsj.com/articles/at-ups-the-algorithm-is-the-driver-1424136536)
-    - [If Algorithms Know All, How Much Should Humans Help?](http://www.nytimes.com/2015/04/07/upshot/if-algorithms-know-all-how-much-should-humans-help.html?abt=0002&abg=0)
-    - [The Potential and the Risks of Data Science](http://bits.blogs.nytimes.com/2013/04/07/the-potential-and-the-risks-of-data-science/)
-    - [Google Schools Its Algorithm](http://www.nytimes.com/2011/03/06/weekinreview/06lohr.html)
-    - [When Algorithms Discriminate](http://www.nytimes.com/2015/07/10/upshot/when-algorithms-discriminate.html)
+  - [At UPS, the Algorithm Is the Driver](http://www.wsj.com/articles/at-ups-the-algorithm-is-the-driver-1424136536)
+  - [If Algorithms Know All, How Much Should Humans Help?](http://www.nytimes.com/2015/04/07/upshot/if-algorithms-know-all-how-much-should-humans-help.html?abt=0002&abg=0)
+  - [The Potential and the Risks of Data Science](http://bits.blogs.nytimes.com/2013/04/07/the-potential-and-the-risks-of-data-science/)
+  - [Google Schools Its Algorithm](http://www.nytimes.com/2011/03/06/weekinreview/06lohr.html)
+  - [When Algorithms Discriminate](http://www.nytimes.com/2015/07/10/upshot/when-algorithms-discriminate.html)
 
 ## Lab
 
 You'll be working on two things in lab today. First, by way of review, download a slice of the [data](http://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236&DB_Short_Name=On-Time) we used for the class exercises. Explore that data on your own using the skills you've learned so far and come back with two 100-ish-word story pitches. Each pitch should also come with a brief description of how you analyzed the data in order to get that idea.
 
 Second, write a short critique of NPR and Planet Money's recent coverage of the effect of algorithms and automation on the labor market. You don't need to listen to all of their podcasts on the subject (they did a handful), but check out [a few of them](http://www.npr.org/sections/money/2015/05/08/405270046/episode-622-humans-vs-robots), look at some of their [data visualizations](http://www.npr.org/sections/money/2015/05/21/408234543/will-your-job-be-done-by-a-machine) and play around with their tool that calculates whether your job is [likely to be done by a machine](http://www.npr.org/sections/money/2015/05/21/408234543/will-your-job-be-done-by-a-machine).
+
+## Questions
+
+I'm at chase.davis@nytimes.com
