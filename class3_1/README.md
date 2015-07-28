@@ -8,14 +8,18 @@ Finally we'll touch briefly on the idea of classification using a portion of a p
 
 ## Hour 1/1.5: Review
 
-First we'll talk through some of your story ideas and critiques from last Tuesday. Also, here's an [interesting story](http://bits.blogs.nytimes.com/2015/07/26/using-algorithms-to-determine-character/) from yesterday's Times that we'll briefly discuss as well.
-
-Then we'll revisit some basic regression concepts from last week using [this iPython notebook](), which (very roughly) mimics a project that the St. Paul Pioneer Press did in 2006 and 2010, known as [Schools that Work](http://www.twincities.com/ci_15487174).
+First we'll talk through some of your story ideas and critiques from last Tuesday. Then we'll revisit some basic regression concepts from last week using [this iPython notebook](https://github.com/datapolitan/lede_algorithms/blob/master/class3_1/regression_review.ipynb), which (very roughly) mimics a project that the St. Paul Pioneer Press did in 2006 and 2010, known as [Schools that Work](http://www.twincities.com/ci_15487174).
 
 ## Hour 2: A closer look at regression
 
-Lorem ipsum
+Journalists tend to look at linear regression through a statistical lens and use it primarily to describe things, as in the case above. You can see another examples here:
+
+  - [Race gap found in pothole patching](http://www.jsonline.com/watchdog/watchdogreports/32580034.html) (Milwaukee Journal Sentinel). And the [associated explainer](http://www.jsonline.com/news/milwaukee/32580074.html).
+
+But looked at another way, linear regression is also a predictive model -- one that, at scale, is based on an algorithm that we can demystify, per our conversations last week. We'll spend a short amount of time talking about how that works and relate it (hypothetically) to this [interesting story](http://bits.blogs.nytimes.com/2015/07/26/using-algorithms-to-determine-character/) from yesterday's Times.
 
 ## Hour 3: Introduction to classification
 
-Lorem ipsum
+Using a [project](https://github.com/datapolitan/lede_algorithms/blob/master/class3_1/classification.ipynb) we've been working on at the Times, we'll expand our idea of supervised learning to include something that seems a bit more like what you might consider "machine learning" -- classifying people's jobs based on strings representing their occupation and employer.
+
+We'll also discuss how lots of data problems in journalism are secretly classification problems, including things like [sorting through documents](https://github.com/cjdd3b/nicar2014/tree/master/lightning-talk/naive-bayes) and [extracting quotes from news articles](https://github.com/cjdd3b/citizen-quotes).
