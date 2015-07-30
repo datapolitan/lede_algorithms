@@ -113,11 +113,17 @@ Steiner, Christopher. <i>Automate This: How Algorithms Came to Rule Our World</i
 #####Class 2 Readings
 + O'Neill, "Statistical Inference, Exploratory Data Analysis, and the Data Science Process" <i>Doing Data Science: Straight Talk from the Front Line</i> pp. 17-37
 
-####Week 3: Opening the Blackbox: Supervised Learning - Decision Trees/Naive Bayes
+####Week 3: Opening the Blackbox: Supervised Learning - Feature Engineering/Decision Trees
 
-####Week 4: Opening the Blackbox: Unsupervised Learning - Clustering, k-NN
+#####Class 2 Readings
++ <i>Building Machine Learning Systems with Python</i>, pp. 33-43
++ <i>Learning scikit-learn: Machine Learning in Python</i>, pp. 41-52
++ Brownlee, Jason, ("Discover Feature Engineering, How to Engineer Features and How to Get Good at It")[http://machinelearningmastery.com/discover-feature-engineering-how-to-engineer-features-and-how-to-get-good-at-it/]
++ ("A Visual Introduction to Machine Learning")[http://www.r2d3.us/visual-intro-to-machine-learning-part-1/]
 
-####Week 5: Opening the Blackbox: Unsupervised Learning
+####Week 4: Opening the Blackbox: Supervised Learning - Feature Engineering/Logistic Regression
+
+####Week 5: Opening the Blackbox: Unsupervised Learning - Clustering, k-NN
 
 ####Week 6: Natural Language Processing, Reverse Engineering, and Ethics Revisited
 
