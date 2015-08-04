@@ -1,5 +1,6 @@
 import csv, itertools
 import numpy as np
+from nameparser import HumanName
 from sklearn import tree
 from sklearn import cross_validation
 from sklearn.cross_validation import KFold
@@ -37,62 +38,74 @@ def sim(str1, str2, shingle_length=3):
 
 ########## FEATURES ##########
 
-def same_first_name(first1, first2):
-    if first1 == first2:
-        return True
-    return False
-
-def name_sim(first1, first2):
-    return sim(first1, first2)
-
-def same_last_name(last1, last2):
-    if last1 == last2:
-        return True
-    return False
+def same_name(name1, name2):
+    return 1 if name1 == name2 else 0
 
 # We're going to add more here ...
-
 
 ########## MAIN ##########
 
 if __name__ == '__main__':
 
-    # Train model
+    # STEP ONE: Train our model.
+
     features, matches = [], []
-    with open('data/contribs_training.csv', 'rU') as csvfile:
+    with open('data/contribs_training_small.csv', 'rU') as csvfile:
         reader = csv.DictReader(csvfile)
-        for key, group in itertools.groupby(reader, lambda x: x['last']):
+        for key, group in itertools.groupby(reader, lambda x: x['name'][:4]):
             for c in itertools.combinations(group, 2):
 
+                # Fill up our vector of correct answers
                 match = 1 if c[0]['contributor_ext_id'] == c[1]['contributor_ext_id'] else 0
                 matches.append(match)
 
+                # And now fill up our feature vector
                 features.append([
-                    name_sim(c[0]['first'], c[1]['first']),
-                    same_first_name(c[0]['middle'], c[1]['middle']),
-                    same_first_name(c[0]['state'], c[1]['state']),
-                    same_first_name(c[0]['zip_code'], c[1]['zip_code']),
+                    same_name(c[0]['name'], c[1]['name'])
                 ])
 
-                # if match:
-                #     print str(c[0]) + '--------------->' + str(c[1])
-                #     print features
-
     dt = tree.DecisionTreeClassifier()
-    #dt = dt.fit(features, matches)
+    dt = dt.fit(features, matches)
 
-    # Evaluate model
-    scores = cross_validation.cross_val_score(dt, features, matches, cv=10, scoring='f1') # FIX scoring = X
+    # STEP TWO: Evaluate the model using 10-fold cross-validation
+
+    scores = cross_validation.cross_val_score(dt, features, matches, cv=10, scoring='f1')
     print "%s (%s folds): %0.2f (+/- %0.2f)\n" % ('asd', 10, scores.mean(), scores.std() / 2)
 
+    # STEP THREE: Apply the model
 
-    ## APPLY MODEL
+    with open('data/contribs_data_exercise.csv', 'rU') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for key, group in itertools.groupby(reader, lambda x: x['last_name'][:1]):
+            for c in itertools.combinations(group, 2):
 
-    # with open('data/contribs_data_exercise.csv', 'rU') as csvfile:
-    #     reader = csv.DictReader(csvfile)
-    #     for c in itertools.combinations(reader, 2):
-    #         print str(c[0]) + '------------->' + str(c[1])
+                # Making print-friendly representations of the records, for easier evaluation
+                record1 = '%s, %s %s | %s %s %s | %s %s' % \
+                    (c[0]['last_name'], c[0]['first_name'], c[0]['middle_name'],
+                     c[0]['city'], c[0]['state'], c[0]['zip'],
+                     c[0]['employer'], c[0]['occupation'])
+                record2 = '%s, %s %s | %s %s %s | %s %s' % \
+                    (c[1]['last_name'], c[1]['first_name'], c[1]['middle_name'],
+                     c[1]['city'], c[1]['state'], c[1]['zip'],
+                     c[1]['employer'], c[1]['occupation'])
 
-    # Evaluate model
+                # We need to do this because our training set has full names, but this set has name
+                # components. Turn those into full names.
+                name1 = '%s, %s %s' % (c[0]['last_name'], c[0]['first_name'], c[0]['middle_name'])
+                name2 = '%s, %s %s' % (c[1]['last_name'], c[1]['first_name'], c[1]['middle_name'])
 
+                # Create feature vector to evaluate
+                features = [
+                    same_name(name1, name2)
+                ]
 
+                # Predict match or no match
+                match = dt.predict(features)
+
+                # Print the results
+                # if match[0] == 1:
+                #     print 'MATCH!'
+                #     print record1 + ' ---------> ' + record2 + '\n'
+                # else:
+                #     print 'NO MATCH!'
+                #     print record1 + ' ---------> ' + record2 + '\n'
