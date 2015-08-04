@@ -1,10 +1,11 @@
 import csv, itertools
 import numpy as np
-from nameparser import HumanName
-from sklearn import tree
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.linear_model import LogisticRegression
 from sklearn import cross_validation
 from sklearn.cross_validation import KFold
 from sklearn import metrics
+from nameparser import HumanName
 
 ########## HELPER FUNCTIONS ##########
 
@@ -64,17 +65,17 @@ if __name__ == '__main__':
                     same_name(c[0]['name'], c[1]['name'])
                 ])
 
-    dt = tree.DecisionTreeClassifier()
-    dt = dt.fit(features, matches)
+    clf = DecisionTreeClassifier()
+    clf = clf.fit(features, matches)
 
     # STEP TWO: Evaluate the model using 10-fold cross-validation
 
-    scores = cross_validation.cross_val_score(dt, features, matches, cv=10, scoring='f1')
+    scores = cross_validation.cross_val_score(clf, features, matches, cv=10, scoring='f1')
     print "%s (%s folds): %0.2f (+/- %0.2f)\n" % ('asd', 10, scores.mean(), scores.std() / 2)
 
     # STEP THREE: Apply the model
 
-    with open('data/contribs_data_exercise.csv', 'rU') as csvfile:
+    with open('data/contribs_unclassified.csv', 'rU') as csvfile:
         reader = csv.DictReader(csvfile)
         for key, group in itertools.groupby(reader, lambda x: x['last_name'][:1]):
             for c in itertools.combinations(group, 2):
@@ -100,7 +101,7 @@ if __name__ == '__main__':
                 ]
 
                 # Predict match or no match
-                match = dt.predict(features)
+                match = clf.predict(features)
 
                 # Print the results
                 # if match[0] == 1:
