@@ -71,6 +71,7 @@ Class runs from 10am to 1pm Tuesday and Thursday. Lab time will be from 2pm to 5
 + [Upshot](http://www.nytimes.com/upshot/)
 + [IQuantNY](http://iquantny.tumblr.com/)
 + [SimplyStatistics](http://simplystatistics.org/)
++ [Data Journalism Handbook](http://datajournalismhandbook.org/1.0/en/index.html)
 
 ####Suggested Reading
 Conway, Drew and John Myles White. <i>Machine Learning for Hackers</i>. O'Reilly Media, Inc., 2012.
