@@ -1,4 +1,5 @@
 from sklearn import preprocessing
+from sklearn.tree import DecisionTreeClassifier
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.feature_extraction.text import CountVectorizer
 

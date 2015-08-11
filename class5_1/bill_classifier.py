@@ -2,7 +2,7 @@ from sklearn import preprocessing
 from sklearn import cross_validation
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.naive_bayes import MultinomialNB
-from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+from sklearn.feature_extraction.text import CountVectorizer
 
 if __name__ == '__main__':
 
@@ -23,27 +23,24 @@ if __name__ == '__main__':
     ########## STEP 2: FEATURE EXTRACTION ##########
     print 'Extracting features ...'
 
-    vectorizer = CountVectorizer()
-    data = vectorizer.fit_transform(text).todense()
-
-    # print data
-    # print data.shape
+    vectorizer = CountVectorizer(stop_words='english')
+    data = vectorizer.fit_transform(text)
 
     ########## STEP 3: MODEL BUILDING ##########
     print 'Training ...'
 
-    model = DecisionTreeClassifier()
     #model = MultinomialNB()
+    model = DecisionTreeClassifier()
     fit_model = model.fit(data, correct_labels)
 
-    ########## STEP 4: EVALUATION ##########
+    # ########## STEP 4: EVALUATION ##########
     print 'Evaluating ...'
 
     # Evaluate our model with 10-fold cross-validation
-    scores = cross_validation.cross_val_score(model, data, correct_labels, cv=10)
+    scores = cross_validation.cross_val_score(model, data, correct_labels, cv=5)
     print "Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2)
 
-    ########## STEP 5: APPLYING THE MODEL ##########
+    # ########## STEP 5: APPLYING THE MODEL ##########
     print 'Classifying ...'
 
     docs_new = ["Public postsecondary education: executive officer compensation.",
