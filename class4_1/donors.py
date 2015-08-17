@@ -42,6 +42,20 @@ def sim(str1, str2, shingle_length=3):
 def same_name(name1, name2):
     return 1 if name1 == name2 else 0
 
+def same_zip_code(zip1, zip2):
+    return 1 if zip1[:5] == zip2[:5] else 0
+
+def same_first_name(name1, name2):
+    first1 = HumanName(name1).first
+    first2 = HumanName(name2).first
+    return 1 if first1 == first2 else 0
+
+def same_last_name(name1, name2):
+    last1 = HumanName(name1).last
+    last2 = HumanName(name2).last
+    return 1 if last1 == last2 else 0
+
+
 # We're going to add more here ...
 
 ########## MAIN ##########
@@ -53,31 +67,34 @@ if __name__ == '__main__':
     features, matches = [], []
     with open('data/contribs_training_small.csv', 'rU') as csvfile:
         reader = csv.DictReader(csvfile)
-        for key, group in itertools.groupby(reader, lambda x: x['name'][:4]):
-            for c in itertools.combinations(group, 2):
+        for c in itertools.combinations(reader, 2):
 
-                # Fill up our vector of correct answers
-                match = 1 if c[0]['contributor_ext_id'] == c[1]['contributor_ext_id'] else 0
-                matches.append(match)
+            # Fill up our vector of correct answers
+            match = 1 if c[0]['contributor_ext_id'] == c[1]['contributor_ext_id'] else 0
+            matches.append(match)
 
-                # And now fill up our feature vector
-                features.append([
-                    same_name(c[0]['name'], c[1]['name'])
-                ])
+            # And now fill up our feature vector
+            features.append([
+                same_name(c[0]['name'], c[1]['name']),
+                same_zip_code(c[0]['zip_code'], c[1]['zip_code']),
+                same_first_name(c[0]['name'], c[1]['name']),
+                same_last_name(c[0]['name'], c[1]['name'])
+
+            ])
 
     clf = DecisionTreeClassifier()
     clf = clf.fit(features, matches)
 
     # STEP TWO: Evaluate the model using 10-fold cross-validation
 
-    scores = cross_validation.cross_val_score(clf, features, matches, cv=10, scoring='f1')
-    print "%s (%s folds): %0.2f (+/- %0.2f)\n" % ('asd', 10, scores.mean(), scores.std() / 2)
+    # scores = cross_validation.cross_val_score(clf, features, matches, cv=10, scoring='f1')
+    # print "%s (%s folds): %0.2f (+/- %0.2f)\n" % ('f1', 10, scores.mean(), scores.std() / 2)
 
     # STEP THREE: Apply the model
 
     with open('data/contribs_unclassified.csv', 'rU') as csvfile:
         reader = csv.DictReader(csvfile)
-        for key, group in itertools.groupby(reader, lambda x: x['last_name'][:1]):
+        for key, group in itertools.groupby(reader, lambda x: x['last_name']):
             for c in itertools.combinations(group, 2):
 
                 # Making print-friendly representations of the records, for easier evaluation
@@ -95,18 +112,22 @@ if __name__ == '__main__':
                 name1 = '%s, %s %s' % (c[0]['last_name'], c[0]['first_name'], c[0]['middle_name'])
                 name2 = '%s, %s %s' % (c[1]['last_name'], c[1]['first_name'], c[1]['middle_name'])
 
-                # Create feature vector to evaluate
+                # And now fill up our feature vector
                 features = [
-                    same_name(name1, name2)
+                    same_name(name1, name2),
+                    same_zip_code(c[0]['zip'], c[1]['zip']),
+                    same_first_name(name1, name2),
+                    same_last_name(name1, name2)
                 ]
 
                 # Predict match or no match
-                match = clf.predict(features)
+                match = clf.predict_proba(features)
 
                 # Print the results
-                # if match[0] == 1:
-                #     print 'MATCH!'
-                #     print record1 + ' ---------> ' + record2 + '\n'
-                # else:
-                #     print 'NO MATCH!'
-                #     print record1 + ' ---------> ' + record2 + '\n'
+                if match[0][0] < match[0][1]:
+                    print 'MATCH!'
+                    print record1 + ' ---------> ' + record2 + '\n'
+                    print match
+                else:
+                    print 'NO MATCH!'
+                    print record1 + ' ---------> ' + record2 + '\n'
