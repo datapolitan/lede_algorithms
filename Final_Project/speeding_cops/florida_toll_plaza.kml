@@ -1,0 +1,784 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Untitled layer</name>
+		<Placemark>
+			<name>FL-408 Hiawassee Plaza</name>
+			<description><![CDATA[Mile Marker 3 - Orlando]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.492054,28.54847,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-408 Pine Hills Plaza</name>
+			<description><![CDATA[Mile Marker 7 - Orlando]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.439977,28.548621,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-408 Conway Plaza</name>
+			<description><![CDATA[Mile Marker 13 - Orlando]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.322271,28.53979,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-408 Dean Plaza</name>
+			<description><![CDATA[Mile Marker 19 - Orlando]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.23467,28.547735,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-414 Coral Hills Plaza</name>
+			<description><![CDATA[John Land Expressway - Apopka, FL]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.509457,28.64269,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-417 Celebration Toll</name>
+			<description><![CDATA[Mile Marker 1 - Kissimmee]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.542265,28.32686,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-417 John Young Pkwy</name>
+			<description><![CDATA[Mile Marker 9 - Orlando]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.459825,28.355944,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-417 Boggy Creek Toll</name>
+			<description><![CDATA[Mile Marker 15 - Orlando]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.335306,28.368293000000005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-417 Curry Ford Plaza</name>
+			<description><![CDATA[Mile Marker 28 - Orlando]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.24243700000001,28.487515,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-417 University Plaza</name>
+			<description><![CDATA[Mile Marker 36 - Orlando]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.255763,28.587536000000004,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-417 Lk Jessup Plaza</name>
+			<description><![CDATA[Mile Marker 48 - Sanford]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.256964,28.741153000000004,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-429 US-192 Toll Plaza</name>
+			<description><![CDATA[Mile Marker 6 - Winter Garden]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.612282,28.359456000000005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-429 - CR 535 Toll Plaza</name>
+			<description><![CDATA[Mile Marker 19 - Winter Garden]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.617475,28.499113,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-429 - SR 438 Toll</name>
+			<description><![CDATA[Mile Marker 28 - Ocoee]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.537244,28.615004,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-528 West Toll</name>
+			<description><![CDATA[Mile Marker 6 - Orlando]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.381912,28.444921,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-528 Airport Toll</name>
+			<description><![CDATA[Mile Marker 10 - Orlando]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.320136,28.451694000000003,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-528 East Toll Plaza</name>
+			<description><![CDATA[Mile Marker 17 - Orlando]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.209414,28.451789,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SR-528 Dallas Blvd Plaza</name>
+			<description><![CDATA[Mile Marker 25 - Orlando]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.069403,28.45194,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-551 Toll</name>
+			<description><![CDATA[Goldenrod Road Extension]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.285846,28.454581,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-589 Anderson Toll</name>
+			<description><![CDATA[Mile Marker 6 - Tampa]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-82.543716,28.031228,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-589 Sugarwood Plaza</name>
+			<description><![CDATA[Mile Marker 11 - Tampa]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-82.552686,28.086596,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-589 Anclote Toll Plaza</name>
+			<description><![CDATA[Mile Marker 24 - New Port Richey]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-82.549639,28.254116,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-589 Spring Hill Plaza</name>
+			<description><![CDATA[Mile Marker 36 - Spring Hill]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-82.528439,28.394119,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-589 Oak Hammock Plaza</name>
+			<description><![CDATA[Mile Marker 53 - Brooksville]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-82.493699,28.658885000000005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-618 Willow-Hyde Park Toll</name>
+			<description><![CDATA[Mile Marker 4 - Tampa]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-82.466598,27.942891,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-618 Palm River Toll</name>
+			<description><![CDATA[Mile Marker 11 - Tampa]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-82.379351,27.950284,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-836 West Extension Toll</name>
+			<description><![CDATA[Mile Marker 1 - Sunpass only]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-80.411789,25.783624,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-836 West Toll Plaza</name>
+			<description><![CDATA[Dolphin Expy - West Toll Plaza - Mile Marker 4.5 - Miami]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-80.349594,25.781711,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-836 East Toll Plaza</name>
+			<description><![CDATA[Dolphin Expy East Toll Plaza - Mile Marker 12.4 - Miami -]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-80.228359,25.782252,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-869 Sunrise Toll</name>
+			<description><![CDATA[Sawgrass Expy - Mile Marker 2 - Sunrise]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-80.331516,26.15798,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-869 Deerfield Toll</name>
+			<description><![CDATA[Sawgrass Expy - Mile Marker 20 - Deerfield Beach]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-80.173287,26.305765,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL-874 Toll Plaza</name>
+			<description><![CDATA[Don Shula S Dade Expy - Mile Marker 1.1 - S Miami]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-80.377479,25.658606,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Alligator Alley - East Toll</name>
+			<description><![CDATA[I-75 - Mile Marker 25 - Ft Lauderdale]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-80.466957,26.146347,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Alligator Alley West Toll</name>
+			<description><![CDATA[I-75 - Mile Marker 98 - Naples]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.668791,26.155698,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bay Harbor Island Toll</name>
+			<description><![CDATA[FL-922 - North Miami]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-80.148257,25.888965,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Boca Grande Causeway Toll</name>
+			<description><![CDATA[Gasparilla Rd/Placida Rd - Placida]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-82.269251,26.829605,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cape Coral Bridge Toll</name>
+			<description><![CDATA[Cape Coral Bridge Rd - Ft Myers]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.920629,26.558205,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Card Sound Causeway Toll</name>
+			<description><![CDATA[Card Sound Rd - Key Largo]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-80.377556,25.291049,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fla Turnpike - Bird Rd/Tamiami Toll</name>
+			<description><![CDATA[Mile Marker 22 - Miami]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-80.383894,25.722494,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fla Turnpike - Canoe Creek Svc Plaza</name>
+			<description><![CDATA[Mile Marker 229 - St Cloud]]></description>
+			<styleUrl>#icon-57</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.274023,28.094471,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fla Turnpike - Cypress Creek Toll Plaza</name>
+			<description><![CDATA[Mile Marker 65 - Pompano Beach]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-80.200195,26.207199,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fla Turnpike - Ft Drum Svc Plaza</name>
+			<description><![CDATA[Mile Marker 184 - Okeechobee, FL]]></description>
+			<styleUrl>#icon-57</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-80.822296,27.600993,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fla Turnpike - Ft Pierce/Pt St Lucie Svc Plaza</name>
+			<description><![CDATA[Mile Marker 144 - Pt St Lucie]]></description>
+			<styleUrl>#icon-57</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-80.372801,27.302155,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fla Turnpike - Golden Glades Toll Plaza</name>
+			<description><![CDATA[Mile Marker 0X - N Miami Bch-Dade]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-80.216675,25.936126,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fla Turnpike - Homestead Plaza</name>
+			<description><![CDATA[Mile Marker 10 - Homestead]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-80.362329,25.548637,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fla Turnpike - Lantana Toll Plaza</name>
+			<description><![CDATA[Mile Marker 88 - Lantana - dividing line between south coin and north ticket system. N/B ticket given and charges collected upon exit.  S/B pay based on distance traveled.]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-80.173631,26.563138,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fla Turnpike - Leesburg Mainline Toll Plaza</name>
+			<description><![CDATA[Mile Marker 288 - Leesburg]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.841192,28.669240000000002,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fla Turnpike - Miramar Toll Plaza</name>
+			<description><![CDATA[Mile Marker 47 - Miramar]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-80.238594,25.972745,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fla Turnpike - Okahumpka Svc Plaza</name>
+			<description><![CDATA[Mile Marker 299 - Wildwood, FL]]></description>
+			<styleUrl>#icon-57</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.982298,28.787031,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fla Turnpike - Okeechobee Toll Plaza</name>
+			<description><![CDATA[Mile Marker 32 - Hialeah - Ticket system]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-80.38803600000001,25.848651,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fla Turnpike - Pompano Svc Plaza</name>
+			<description><![CDATA[Mile Marker 65 - Pompano Park]]></description>
+			<styleUrl>#icon-57</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-80.182986,26.226295,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fla Turnpike Snapper Creek Svc Plaza</name>
+			<description><![CDATA[Mile Marker 19 - Miami]]></description>
+			<styleUrl>#icon-57</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-80.387135,25.661991,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fla Turnpike - Three Lakes Toll Plaza</name>
+			<description><![CDATA[Mile Marker 236 - St Cloud - coin system north, ticket system south of this point. S/B given ticket & charges collected upon exit.  N/B charges collected based on distance traveled.]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.30312,28.181662,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fla Turnpike - Turkey Lake Svc Plaza</name>
+			<description><![CDATA[Mile Marker 263 - Orlando]]></description>
+			<styleUrl>#icon-57</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.500187,28.515009,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fla Turnpike - West Palm Bch Svc Plaza</name>
+			<description><![CDATA[Mile Marker 94 - West Palm Beach]]></description>
+			<styleUrl>#icon-57</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-80.174811,26.634493,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gratingy Pkwy Toll</name>
+			<description><![CDATA[FL-924 - Mile Marker 3.5 - Miami Lakes]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-80.271564,25.88718,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Garcon Point Bridge Toll</name>
+			<description><![CDATA[Avalon Blvd/S Garcon Point Rd, Milton]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-87.09536100000001,30.455832,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Jekyll Island Toll</name>
+			<description><![CDATA[Jekyll Island, GA - Jekyll Island Rd/Riverview Dr]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.417516,31.047391000000005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Miami Airport Expy Toll Plaza</name>
+			<description><![CDATA[FL-112 Toll Plaza - Mile Marker 3.8 - Miami -]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-80.220988,25.812351,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mid-Bay Bridge Toll</name>
+			<description><![CDATA[Midbay Bridge Rd/White Point Rd - Niceville]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-86.415753,30.456443,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Midpoint Memorial Bridge</name>
+			<description><![CDATA[FL-884/SE 17th PL - Cape Coral\]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.932259,26.607637,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Osceola Parkway Toll Plaza</name>
+			<description><![CDATA[Kissimmee - will not auto spot]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.439998,28.345426,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pinellas Bayway Toll Plaza</name>
+			<description><![CDATA[Pinellas Bayway/Granada St, St Petersburg]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-82.732383,27.709158,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Polk Parkway Eastern Toll</name>
+			<description><![CDATA[FL-570 - Mile Marker 21 - Auburndale]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.831869,28.110758,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Polk Parkway Central Toll Plaza</name>
+			<description><![CDATA[FL-570 - Mile Marker 13 - Lakeland]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.862864,28.010581,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Polk Parkway Western Toll Plaza</name>
+			<description><![CDATA[FL-570 - Mile Marker 8 - Lakeland]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-81.934619,27.99622,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Rickenbacker Causeway Toll</name>
+			<description><![CDATA[Rickenbaker Causeway/US-1 - Miami]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-80.202556,25.748821,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sanibel Island Causeway</name>
+			<description><![CDATA[McGregor Blvd/Punta Rassa Road - Ft Myers]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-82.008849,26.484823,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sunshine Skyway North Toll</name>
+			<description><![CDATA[I-275, Mile Marker 14 - St Petersburg]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-82.678438,27.681124,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sunshine Skyway South Toll</name>
+			<description><![CDATA[I-275, Mile Marker 6, Terra Ceia]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-82.596481,27.583649000000005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Venetian Causeway Toll</name>
+			<description><![CDATA[Venetian Causeway/N Venetian Rd - Miami Beach]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-80.178233,25.790106,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-22-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-22-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-22'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-22-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-22-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-57-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/57-gas.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-57-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/57-gas.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-57'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-57-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-57-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>
