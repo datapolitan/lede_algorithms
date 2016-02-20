@@ -25,6 +25,7 @@
 + [TabulaPDF](http://tabula.technology/): https://github.com/tabulapdf
 + [Public Media Platform](http://publicmediaplatform.org/): https://github.com/publicmediaplatform
 + [CensusReporter](http://censusreporter.org/): https://github.com/censusreporter
++ Mozilla Foundation: https://github.com/mozilla
 
 ##People
 + Michael Keller: https://github.com/mhkeller
