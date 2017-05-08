@@ -52,7 +52,7 @@ Class runs from 10am to 1pm Tuesday and Thursday. Lab time will be from 2pm to 5
 
 + [Stack Overflow](http://stackoverflow.com) - Q&A community of technology pros
 
-####(Some) Open Data Sources
+#### (Some) Open Data Sources
 
 + [New York City Open Data Portal](https://nycopendata.socrata.com/)
 + [New York State Open Data Portal](https://data.ny.gov/)
